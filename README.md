@@ -11,7 +11,11 @@ https://grouplens.org/datasets/movielens/1m/
 For the model, we have used cosine function and nearest neighbour function to determine which movies would be closely related to the movie selected by the user. The idea behind nearest neighbour approaches is to select a set number of training samples that are geographically closest to the new point and then estimate the label based on them. Regardless of the size of the documents, Cosine similarity is a metric used in NLP to evaluate how similar they are. The movies that have been previously selected by the user are saved into a list and a separate list of movies is also recommended from the history list.
 ### User Interface
 A user interface is created using streamlit which is a framework for creating and deploying interactive data science dashboards and machine learning models that is open source and based on Python. 
-![Screenshot 2022-11-18 124614](https://user-images.githubusercontent.com/39832668/202645667-45818540-ca45-45f1-8ff0-79eff964dc8c.png)
+
+![ui2](https://user-images.githubusercontent.com/39832668/202753257-43a6758a-b755-4505-af93-f3ec44306826.png)
+
 The UI contains a drop box which contains all the names of the images from the movielens dataset from which the user can select a movie movie which he/she likes and then if they click on a "Recommend" button which is situated below the drop box, the model we created will run in the backend and 5 movie names related to the movie selected by the user will be displayed.
-![Screenshot 2022-11-18 124430](https://user-images.githubusercontent.com/39832668/202645460-49d74adc-e32d-4d86-ac78-12cdeea58091.png)
+
+![ui1](https://user-images.githubusercontent.com/39832668/202753358-67881e6a-3639-4d6b-bd21-3e24827ad498.png)
+
 After the user selects the second movie, the column named "Recommended movies from history" will show 5 different movies that are close to the movies that the user selected in the past.
