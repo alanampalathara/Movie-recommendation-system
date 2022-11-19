@@ -7,7 +7,7 @@ To create a movie recommendation system using machine learning techniques and to
 The dataset used for this project is called MovieLens 1M Dataset. It contains 1,000,209 anonymous ratings of approximately 3,900 movies 
 made by 6,040 MovieLens users who joined MovieLens in 2000.
 https://grouplens.org/datasets/movielens/1m/
-### Modeling and Analysis
+### Methodology used
 For the model, we have used cosine function and nearest neighbour algorithm to determine which movies would be closely related to the movie selected by the user. The idea behind nearest neighbour approaches is to select a set number of training samples that are geographically closest to the new point and then estimate the label based on them. The movies that have been previously selected by the user are saved into a list and a separate list of movies is also recommended from the history list.
 ### User Interface
 A user interface is created using streamlit which is a framework for creating and deploying interactive data science dashboards and machine learning models that is open source and based on Python. 
