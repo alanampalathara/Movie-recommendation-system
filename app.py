@@ -10,8 +10,7 @@ import base64
 
 
 movies = pd.read_csv('C:/Users/alant/Documents/ML2 Project/data/movies.csv',sep=';',encoding='latin-1').drop('Unnamed: 3',axis=1)
-ratings = pd.read_csv('C:/Users/alant/Documents/ML2 Project/data/ratings.csv',sep=';')
-users = pd.read_csv('C:/Users/alant/Documents/ML2 Project/data/users.csv',sep=';')
+
 
 
 vectorizer = CountVectorizer(stop_words='english')
